@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/quiz-hub/static/css/main.882ea407.css",
-    "main.js": "/quiz-hub/static/js/main.75dd9cfe.js",
-    "static/js/787.36bd1100.chunk.js": "/quiz-hub/static/js/787.36bd1100.chunk.js",
-    "static/media/logo512.png": "/quiz-hub/static/media/logo512.fbda0f892bc7af7e86f5.png",
-    "index.html": "/quiz-hub/index.html",
-    "main.882ea407.css.map": "/quiz-hub/static/css/main.882ea407.css.map",
-    "main.75dd9cfe.js.map": "/quiz-hub/static/js/main.75dd9cfe.js.map",
-    "787.36bd1100.chunk.js.map": "/quiz-hub/static/js/787.36bd1100.chunk.js.map"
+    "main.css": "/React-Js-Quiz-App/static/css/main.882ea407.css",
+    "main.js": "/React-Js-Quiz-App/static/js/main.ce0f8c4f.js",
+    "static/js/787.36bd1100.chunk.js": "/React-Js-Quiz-App/static/js/787.36bd1100.chunk.js",
+    "static/media/logo512.png": "/React-Js-Quiz-App/static/media/logo512.fbda0f892bc7af7e86f5.png",
+    "index.html": "/React-Js-Quiz-App/index.html",
+    "main.882ea407.css.map": "/React-Js-Quiz-App/static/css/main.882ea407.css.map",
+    "main.ce0f8c4f.js.map": "/React-Js-Quiz-App/static/js/main.ce0f8c4f.js.map",
+    "787.36bd1100.chunk.js.map": "/React-Js-Quiz-App/static/js/787.36bd1100.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.882ea407.css",
-    "static/js/main.75dd9cfe.js"
+    "static/js/main.ce0f8c4f.js"
   ]
 }
