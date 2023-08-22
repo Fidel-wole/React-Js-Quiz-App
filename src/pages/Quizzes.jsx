@@ -24,7 +24,7 @@ const Quizzes = () => {
     <div className='page quizzes'>
       <div className="content">
         
-        <section>
+        <section style={{display:'none'}}>
           <div className="heading">
             <h1>
               Collections <FaAppStore />
