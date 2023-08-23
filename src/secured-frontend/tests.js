@@ -659,7 +659,759 @@ const bryophyteQuestions = [
     correctOption: "D",
     answerPicked: "",
   },
+  {
+    name: "The branch of botany that deals with the form of the plant is known as",
+    options: [
+      "Physiology",
+      "Anatomy",
+      "Morphology",
+      "Cytology",
+    ],
+    correctAnswer: "Morphology",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "The roots which develop from any portion of the plant except the radical are known as",
+    options: [
+      "Tap roots",
+      "Stilt roots",
+      "Fibrous roots",
+      "Adventitious roots",
+    ],
+    correctAnswer: "Adventitious roots",
+    correctOption: "D",
+    answerPicked: "",
+  },
   // You can continue adding more questions here...
+];
+
+const libraryQuestions = [
+  // ... Other library science questions ...
+
+  {
+    name: "A newspaper is a publication that is issued",
+    options: [
+      "Daily or Weekly",
+      "Monthly",
+      "Annually",
+      "Biannually",
+    ],
+    correctAnswer: "Daily or Weekly",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Most serials especially journals are acquired through",
+    options: [
+      "Donation",
+      "Subscription",
+      "Exchange",
+      "Interlibrary loan",
+    ],
+    correctAnswer: "Subscription",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "One of the factors that affect the production and acquisition of serials is:",
+    options: [
+      "Constant change of serials title",
+      "Serials colour",
+      "Low cost",
+      "Lack of readership",
+    ],
+    correctAnswer: "Constant change of serials title",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "A major advantage of Electronic Serials is that:",
+    options: [
+      "They can also be accessed from outside the library",
+      "They are cheaper",
+      "On-line articles are difficult to access",
+      "None of the above",
+    ],
+    correctAnswer: "They can also be accessed from outside the library",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "The Reference unit houses reference materials that are:",
+    options: [
+      "Meant only for consultation",
+      "Meant for borrowing",
+      "For binding",
+      "For reserve",
+    ],
+    correctAnswer: "Meant only for consultation",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "___ are reference materials that give general background information on a topic",
+    options: [
+      "Dictionaries",
+      "Directories",
+      "Encyclopedia",
+      "Index",
+    ],
+    correctAnswer: "Encyclopedia",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Is an example of a general encyclopedia",
+    options: [
+      "Encyclopedia of Biology",
+      "Encyclopedia Britannica",
+      "Encyclopedia of Agriculture",
+      "Encyclopedia of Forestry",
+    ],
+    correctAnswer: "Encyclopedia Britannica",
+    correctOption: "B",
+    answerPicked: "",
+  },
+];
+
+const libraryQuestions2 = [
+  // ... Other library science questions ...
+
+  {
+    name: "Provide basics data and statistics on topics such as education, health etc and published annually",
+    options: [
+      "Abstracts",
+      "Indexes",
+      "Yearbooks",
+      "Handbooks",
+    ],
+    correctAnswer: "Yearbooks",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Bibliography refers to:",
+    options: [
+      "A list of works complied on some common organizing principle, such as authorship, subject etc.",
+      "A book containing lists of names of residents, businesses organizations etc.",
+      "A book of language which provides information regarding the meaning, origin, spellings etc",
+      "Material that gives general background information on a topic.",
+    ],
+    correctAnswer: "A list of works complied on some common organizing principle, such as authorship, subject etc.",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "The following are advantages of using Non-print resources except:",
+    options: [
+      "Aid retention",
+      "Preservation",
+      "Group instruction",
+      "Erratic power supply.",
+    ],
+    correctAnswer: "Erratic power supply.",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "One of the following is not part of audio-visual resources",
+    options: [
+      "Television",
+      "Video recordings",
+      "Digital media",
+      "World Atlas.",
+    ],
+    correctAnswer: "World Atlas.",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "Physical parts of a book consist of the following except:",
+    options: [
+      "Dust jacket",
+      "Binding",
+      "Publisher",
+      "Spine.",
+    ],
+    correctAnswer: "Publisher",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Binding is:",
+    options: [
+      "That part of a book which holds the printed sheets together",
+      "The edge of the book that holds the printed sheets together",
+      "What contains the intellectual information",
+      "A blank leaf found at the beginning and end of a book.",
+    ],
+    correctAnswer: "That part of a book which holds the printed sheets together",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Books as the oldest forms of printed media include the following sub types except:",
+    options: [
+      "Monographs",
+      "Textbooks",
+      "Reference books",
+      "Realia.",
+    ],
+    correctAnswer: "Realia.",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  // ... More questions ...
+];
+
+const libraryQuestions3 = [
+  // ... Other library science questions ...
+
+  {
+    name: "Copyright page is also known as:",
+    options: [
+      "Fly leaf",
+      "Preface",
+      "Title page",
+      "Verso page",
+    ],
+    correctAnswer: "Verso page",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  
+  {
+    name: "Date of copyright, name of copyright holder, book’s number, library of congress catalogue number, previous editions, printers name can all be found on the",
+    options: [
+      "Copyright page",
+      "Title page",
+      "Preface",
+      "Foreword",
+    ],
+    correctAnswer: "Copyright page",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Sources of information when listed and arranged in an alphabetical order can be referred to as",
+    options: [
+      "Biography",
+      "Bibliography",
+      "Bibliology",
+      "References",
+    ],
+    correctAnswer: "Bibliography",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "When a source of information is all about a person’s life history authored by self it is called",
+    options: [
+      "Biography",
+      "Bibliography",
+      "Autobiography",
+      "Encyclopedia",
+    ],
+    correctAnswer: "Autobiography",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "An additional explanation and elaboration not essential to a text is known as",
+    options: [
+      "Appendix",
+      "Glossary",
+      "Index",
+      "List of illustrations",
+    ],
+    correctAnswer: "Appendix",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "To have reduced photographic images of printed pages and make it possible to house much more materials, the library needs",
+    options: [
+      "Computers",
+      "Softwares",
+      "Books",
+      "Microforms",
+    ],
+    correctAnswer: "Microforms",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "In the Dewey Decimal System, 300 represents",
+    options: [
+      "Language",
+      "Social sciences",
+      "The Arts",
+      "Pure Sciences",
+    ],
+    correctAnswer: "Social sciences",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "Cartographic materials are also known as:",
+    options: [
+      "Maps",
+      "Audio-visual materials",
+      "Objects",
+      "None of the above.",
+    ],
+    correctAnswer: "Maps",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "FUTA library was opened to users on:",
+    options: [
+      "1983",
+      "1993",
+      "1981",
+      "2003.",
+    ],
+    correctAnswer: "1983",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "National Libraries are also known as:",
+    options: [
+      "Virtual libraries",
+      "Special libraries",
+      "Depository",
+      "Archival libraries.",
+    ],
+    correctAnswer: "Depository",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "The word library is from a:",
+    options: [
+      "German word",
+      "French word",
+      "Latin word",
+      "Indonesia word",
+    ],
+    correctAnswer: "Latin word",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+
+];
+const libraryQuestions4 = [
+  // ... Other library science questions ...
+
+  {
+    name: "A place where we have a large number of historical records is called:",
+    options: [
+      "Public library",
+      "Archive",
+      "National library",
+      "School library",
+    ],
+    correctAnswer: "Archive",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "Which unit in the library is responsible for the processing of books?",
+    options: [
+      "Serial unit are issued",
+      "Circulation unit",
+      "Reference unit",
+      "Cataloguing and Classification unit",
+    ],
+    correctAnswer: "Cataloguing and Classification unit",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "Users normally keep their personal belongings when entering the Library in the:",
+    options: [
+      "Porters unit",
+      "Cloak room",
+      "Security room",
+      "Circulation desk",
+    ],
+    correctAnswer: "Cloak room",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "Works on a single subject or aspect of a subject are called:",
+    options: [
+      "Monographs",
+      "Textbooks",
+      "Reference books",
+      "Pamphlets",
+    ],
+    correctAnswer: "Monographs",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Constant changing of titles is one of the problems of ...",
+    options: [
+      "Clippings",
+      "Abstracts",
+      "Serials",
+      "Audio –visual",
+    ],
+    correctAnswer: "Serials",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Encyclopedia resources can be located in ... units of the library",
+    options: [
+      "Reference Unit",
+      "Circulation Unit",
+      "Bindery Unit",
+      "Cataloguing Unit",
+    ],
+    correctAnswer: "Reference Unit",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "---------------- directs users to the exact location of a book on the shelf",
+    options: [
+      "Accession number",
+      "Entry Heading",
+      "Catalogue",
+      "Call marks",
+    ],
+    correctAnswer: "Catalogue",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "A basic reference collection is made up of all EXCEPT ...",
+    options: [
+      "Dictionaries",
+      "Encyclopedias",
+      "Textbooks",
+      "Gazetteers",
+    ],
+    correctAnswer: "Textbooks",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "------------------- is a serious offence in the Library",
+    options: [
+      "Writing",
+      "Reading",
+      "Noise making",
+      "Research",
+    ],
+    correctAnswer: "Noise making",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "The following are the methods used to acquire serials materials in the library EXCEPT ...",
+    options: [
+      "Purchase",
+      "Gift",
+      "Donation",
+      "Supply",
+    ],
+    correctAnswer: "Supply",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "All of these EXCEPT one is not an information source",
+    options: [
+      "Primary information sources",
+      "Secondary information sources",
+      "Tertiary information sources",
+      "Universal information sources",
+    ],
+    correctAnswer: "Universal information sources",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "A library owned by an individual is an example of a ...",
+    options: [
+      "Personal library",
+      "School library",
+      "Private library",
+      "Individual library",
+    ],
+    correctAnswer: "Private library",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "--------------- are examples of academic libraries",
+    options: [
+      "University libraries, college of education libraries and polytechnics libraries",
+      "College libraries, schools libraries",
+      "Polytechnics libraries, college of education libraries and private libraries",
+      "None of the above",
+    ],
+    correctAnswer: "University libraries, college of education libraries and polytechnics libraries",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+
+  // ... Continue adding more questions ...
+
+];
+
+
+const libraryQuestions5 = [
+  // ... Other library questions ...
+
+  {
+    name: "The maximum number of books that an undergraduate can borrow in the library is ...",
+    options: [
+      "Five",
+      "Three",
+      "Four",
+      "Two",
+    ],
+    correctAnswer: "Two",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "Charging and discharging are performed in ... unit of the library.",
+    options: [
+      "Reference",
+      "Acquisition",
+      "Serial",
+      "Circulation",
+    ],
+    correctAnswer: "Circulation",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "The skills combined in locating and retrieving information is called ...",
+    options: [
+      "Information literacy",
+      "Information process",
+      "Information awareness",
+      "Information protocol",
+    ],
+    correctAnswer: "Information literacy",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "A library without walls is called...",
+    options: [
+      "Digital library",
+      "Electronic library",
+      "Virtual library",
+      "Public library",
+    ],
+    correctAnswer: "Virtual library",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "A book borrowed by an undergraduate will be for a period of ...",
+    options: [
+      "Three weeks",
+      "Four weeks",
+      "Two weeks",
+      "One week",
+    ],
+    correctAnswer: "Two weeks",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "The following are ways of acquiring materials in the library except...",
+    options: [
+      "Purchase",
+      "Gift",
+      "Exchange",
+      "Binding",
+    ],
+    correctAnswer: "Binding",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "The retrieval tool used to locate books on shelves in the library is ...",
+    options: [
+      "Library card",
+      "Catalogue",
+      "Kardex",
+      "School identity card",
+    ],
+    correctAnswer: "Catalogue",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  // ... Continue adding more questions ...
+
+];
+
+const libraryQuestions6 = [
+  // ... Previous library questions ...
+
+  {
+    name: "Call number is made of",
+    options: [
+      "Location number",
+      "Address number",
+      "Subject number and author number",
+      "Subject number and book number",
+    ],
+    correctAnswer: "Subject number and author number",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "Call number is",
+    options: [
+      "Numeric",
+      "Alphanumeric",
+      "Words only",
+      "Pictorial only",
+    ],
+    correctAnswer: "Alphanumeric",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  {
+    name: "The unique number assigned to any book showing when it was acquired is called",
+    options: [
+      "Accession number",
+      "Subject number",
+      "Location number",
+      "International Standard Book Number",
+    ],
+    correctAnswer: "Accession number",
+    correctOption: "A",
+    answerPicked: "",
+  },
+  {
+    name: "Information on the publisher of a book, place and date of publication is known as",
+    options: [
+      "Collation",
+      "Author entry",
+      "Series entry",
+      "Imprint",
+    ],
+    correctAnswer: "Imprint",
+    correctOption: "D",
+    answerPicked: "",
+  },
+  {
+    name: "Information on a book’s length and size as well as notations about maps or illustrations is called",
+    options: [
+      "Author’s entry",
+      "Series entry",
+      "Collation",
+      "Imprint",
+    ],
+    correctAnswer: "Collation",
+    correctOption: "C",
+    answerPicked: "",
+  },
+  {
+    name: "The largest and most detailed of all encyclopedias is called",
+    options: [
+      "World Bank Encyclopedia",
+      "Encyclopedia Britannica",
+      "New Age Encyclopedia",
+      "Encyclopedia of physics",
+    ],
+    correctAnswer: "Encyclopedia Britannica",
+    correctOption: "B",
+    answerPicked: "",
+  },
+  
+    {
+      name: "Some disadvantages of the use of social media are",
+      options: [
+        "Facilitating deception",
+        "Defamatory content",
+        "Subjective norms",
+        "All of the above",
+      ],
+      correctAnswer: "All of the above",
+      correctOption: "D",
+      answerPicked: "",
+    },
+    {
+      name: "File transfer protocol an internet standard permits on the internet the sharing of ____ with other computers",
+      options: [
+        "Videos",
+        "Files",
+        "Sound",
+        "Textual messages",
+      ],
+      correctAnswer: "Files",
+      correctOption: "B",
+      answerPicked: "",
+    },
+    {
+      name: "One aspect of information literacy is ________",
+      options: [
+        "Cultural literacy",
+        "Building literacy",
+        "Music literacy",
+        "Trading literacy",
+      ],
+      correctAnswer: "Cultural literacy",
+      correctOption: "A",
+      answerPicked: "",
+    },
+    {
+      name: "One of the following is a primary source of information",
+      options: [
+        "Book",
+        "Reviews",
+        "Patents",
+        "Databases",
+      ],
+      correctAnswer: "Patents",
+      correctOption: "C",
+      answerPicked: "",
+    },
+    {
+      name: "A library with manual and sclerotic catalogues is an example of one that uses",
+      options: [
+        "Hybrid catalogue",
+        "Electronic catalogues",
+        "Manual catalogue",
+        "MARC and OPAC",
+      ],
+      correctAnswer: "Hybrid catalogue",
+      correctOption: "A",
+      answerPicked: "",
+    },
+    {
+      name: "Added entries can be used in locating publication by the provision of",
+      options: [
+        "Title, subject, author, translator, compiler and publisher",
+        "Title, subject, author, and printer",
+        "Title, subject, author, compiler and press",
+        "Title, subject, author, publisher, printer and press",
+      ],
+      correctAnswer: "Title, subject, author, translator, compiler and publisher",
+      correctOption: "A",
+      answerPicked: "",
+    },
+    // ... Continue adding more questions ..
+  
+  // ... Continue adding more questions ...
 ];
 
 
@@ -679,8 +1431,13 @@ const bio101Questions = [
   ...bryophyteQuestions,
 ];
 
-const mts101Questions =[
-
+const gns103Questions =[
+   ...libraryQuestions,
+   ...libraryQuestions2,
+   ...libraryQuestions3,
+   ...libraryQuestions4,
+   ...libraryQuestions5,
+   ...libraryQuestions6
 ]
 const phy101Questions =[
 
@@ -717,18 +1474,18 @@ const quizzes = [
     ],
   },
   {
-    name: "MTS 101 Questions",
+    name: "GNS 103 Questions",
     id: 3,
     timer: {
       minutes: 20,
       seconds: 0,
     },
-    imgUrl:"data:image/png;base64,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",
-    slug: "mts101 Questions",
+    imgUrl:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRRnPbSoOkVdhS0CXEzoPdxsYSAYdwDP24Cj2nwKq99Q&s",
+    slug: "gns103 Questions",
     description: "",
     author: "Admin",
     questions: [
-      ...mts101Questions
+      ...gns103Questions
     ],
   },
 ]
