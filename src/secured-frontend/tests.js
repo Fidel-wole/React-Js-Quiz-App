@@ -1447,7 +1447,7 @@ const quizzes = [
     name: "Biology Questions",
     id: 1,
     timer: {
-      minutes: 20,
+      minutes: 30,
       seconds: 0,
     },
     imgUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2zISvwY1HTXH5h083_jvOQ_i3dAPsWSfjWDcaly7wDjeqdoOhLv4Nc8GmD-07KzwJ2Ns&usqp=CAU",
